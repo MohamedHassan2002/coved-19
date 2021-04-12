@@ -1,0 +1,550 @@
+*{
+    box-sizing: border-box;
+    clear: both;
+}
+
+/*strart navbar*/
+.navbar{
+    height: 80px;
+}
+.navbar-nav:hover{
+    color: red;
+}
+
+/*end navbar*/
+
+/*start headar*/
+
+header{
+    padding-top:100px ;
+    height: 700px;
+
+}
+header .corona{
+    width: 600px;
+}
+.corona h1{
+    font-size: 85px;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
+}
+
+header .brgraph-corona p{
+    width: 600px;
+    text-align: left;
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin: 30px 0 50px;
+    position: relative;
+    bottom: 30px;
+}
+.but-and-lin{
+    width: 600px;
+}
+.but-and-lin button{
+    border-radius: 20px;
+}
+.but-and-lin a{
+    float: right;
+    color: #2a81ea;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+   right: 80px;
+}
+.box{
+    width: 166px;
+}
+.three-boxes{
+   width: 500px;
+   margin-top: 50px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.three-boxes p{
+    letter-spacing: 0.05em;
+    color: #7d92bb;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.three-boxes h6{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3d4b69;
+
+}
+.last-updated{
+    font-style: italic;
+    font-size: 12px;
+    color: #7d92bb;
+    margin-top: 30px
+
+}
+/*end headar*/
+
+*{
+    box-sizing: border-box;
+}
+
+/* Start About  */
+
+.about {
+    padding: 100px 0;
+}
+
+.about .about-texts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .about-texts .about-left-text {
+    flex-basis: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.about .about-texts .about-left-text h5 {
+    color: #2a81ea;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.about .about-texts .about-left-text h2 {
+    color: #50658e;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about .about-texts .about-left-text p:first-of-type {
+    font-size: 19px;
+    line-height: 1.7em;
+}
+
+.about .about-texts .about-left-text p {
+    color: #3d4b69;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.about .about-texts .about-left-text p span {
+    font-weight: bold;
+}
+
+.about .about-texts .about-right-text {
+    flex-basis: 90%;
+    margin: 50px auto 0;
+}
+
+.about .about-texts .about-right-text ul {
+    border: 1px solid #e7e8ff;
+    list-style: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+}
+
+.about .about-texts .about-right-text ul li {
+    border-bottom: 1px solid #e7e8ff;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #465675;
+    font-size: 20px;
+}
+
+.about .about-texts .about-right-text ul a li {
+    display: flex;
+    justify-content: space-between;
+    color: #2a81ea;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.about .about-texts .about-right-text ul a {
+    text-decoration: none;
+    color: #2a81ea;
+    border-bottom: 1px solid #e7e8ff;
+}
+
+.about .about-texts .about-right-text ul a li:hover {
+    color: #1468cd;
+}
+
+/* Start About Media Queries */
+
+/* (tablets, 768px ) */
+
+@media (min-width: 768px) {
+    .about .about-texts .about-left-text {
+        flex-basis: 80%;
+        text-align: center;
+    }
+
+    .about .about-texts .about-right-text {
+        flex-basis: 80%;
+    }
+}
+
+/* Large (desktops, 992px ) */
+
+@media (min-width: 992px) {
+    .about .about-texts {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .about .about-texts .about-left-text {
+        flex-basis: 55%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .about .about-texts .about-right-text {
+        flex-basis: 32%;
+        margin: 0;
+    }
+
+    .about .about-texts .about-right-text ul li {
+        text-align: left;
+    }
+}
+
+/* end About Media Queries */
+
+/* end About  */
+
+
+/*start transmission*/
+.section-transmission{
+    padding: 100px 0;
+    background-color: #F7F9FE;
+}
+.transmission-text{
+    width: 60%;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+.transmission-text h5{
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.transmission-text h4{
+    color: #50658e;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.transmission-text p{
+    color: #3d4b69;
+    margin-bottom: 60px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.butt-TRANSMISSION{
+    position: absolute;
+    left: 38%;
+    padding-top: 30px;
+
+}
+.butt-TRANSMISSION a{
+    width: 280px;
+    border-radius: 20px;
+}
+
+/* start TRANSMISSION Media Queries */
+@media (max-width: 576px) {
+    .parent-transmission{
+        position: relative;
+        right: 150px;
+    }
+}
+/* @media (max-width: 576px) {
+    .butt-TRANSMISSION {
+        width: 150px;
+        margin-left: 0px;
+    }
+} */
+@media (max-width: 768px) {
+    .butt-TRANSMISSION {
+        width: 200px;
+    }
+}
+@media (min-width:996px) {
+    .butt-TRANSMISSION {
+        width: 200px;
+        
+   }
+}
+/* end TRANSMISSION Media Queries */
+
+/*end transmission*/
+
+/* start symptoms */
+ 
+
+.symptoms-cards{
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+.symptoms-cards .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px , 4fr));
+  gap: 20px;
+}
+.symptoms-cards .symptoms-card{
+  text-align: center;
+background-color: rgba(128, 128, 128, 0.164);}
+.symptoms-card img{
+ width: 100px;
+ height: 100px;
+ position: relative;
+ left: 100px;
+ bottom: 30px;
+ z-index: 1000;
+ border-radius: 50%;
+
+  } 
+  
+@media (max-width: 576px) {
+    .WHAT-ARE-THE-SYMPTOMS{
+        position: relative;
+        right: 150px;
+    }
+}
+
+/* end symptoms */
+
+
+
+/* start footer */
+
+
+footer {
+    background-color: #151c2e;
+    background-image: url(../images/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer .footer-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(247, 248, 255, 0.1);
+}
+
+footer .footer-texts .footer-text:first-of-type {
+    flex-basis: 80%;
+}
+
+footer .footer-texts .footer-text {
+    flex-basis: 80%;
+    margin: 0 auto 50px;
+}
+
+footer .footer-texts .footer-text h2 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .footer-texts .footer-text h2 span {
+    color: #4B6691;
+}
+
+footer .footer-texts .footer-text h2 svg {
+    color: #FF5363;
+}
+
+footer .footer-texts .footer-text p {
+    color: #b2bfe0;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text .footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon {
+    background-color: #50658e;
+    border-radius: 50%;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon:hover {
+    background-color: #2a81ea;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-texts .footer-text h5 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text ul li a {
+    color: #b2bfe0;
+    text-decoration: none;
+}
+
+footer .footer-texts .footer-text ul li a:hover {
+    color: #2a81ea;
+}
+
+footer .footer-copyrights {
+    padding-top: 50px;
+}
+
+footer .footer-copyrights .copyrights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #b2bfe0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+footer .footer-copyrights .copyrights p {
+    flex-basis: 80%;
+    margin-bottom: 20px;
+}
+
+footer .footer-copyrights .copyrights span {
+    color: #fff;
+    font-weight: bold;
+}
+
+footer .footer-copyrights .copyrights a {
+    color: #b2bfe0;
+    text-decoration: none;
+    flex-basis: 60%;
+}
+
+footer .footer-copyrights .copyrights a:hover {
+    color: #2a81ea;
+}
+
+footer .footer-copyrights p {
+    color: #b2bfe0;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+/* Start Style The Website Footer Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    footer .footer-texts .footer-text:first-of-type {
+        flex-basis: 90%;
+    }
+
+    footer .footer-texts .footer-text {
+        flex-basis: 20%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    footer .footer-texts .footer-text h2 {
+        text-align: left;
+    }
+
+    footer .footer-texts .footer-text .footer-icons {
+        margin: 0;
+    }
+
+    footer .footer-copyrights .copyrights {
+        flex-wrap: nowrap;
+    }
+
+    footer .footer-copyrights .copyrights p {
+        flex-basis: 80%;
+        margin-bottom: 0;
+    }
+
+    footer .footer-copyrights .copyrights a {
+        flex-basis: 20%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    footer .footer-texts {
+        flex-wrap: nowrap;
+    }
+
+    footer .footer-texts .footer-text:first-of-type {
+        flex-basis: 30%;
+    }
+
+    footer .footer-texts .footer-text {
+        flex-basis: 20%;
+    }
+}
+
+/* Finish Style The Website Footer Media Queries */
+

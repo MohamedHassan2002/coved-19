@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    
+}
+/*strart navbar*/
+.navbar{
+    height: 80px;
+}
+
+/*end navbar*/
+
+/*start headar*/
+header{
+    margin-top: 200px;
+    height: 700px;
+}
+header .corona{
+    width: 600px;
+}
+.corona h1{
+    font-size: 85px;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.corona h5{
+    font-size: 28px;
+    color: #FF5363;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 14px;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+    font-weight: bold;
+
+}
+.corona h6{
+    font-size: 40px;
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    font-weight: bold;
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+
+}
+header .brgraph-corona p{
+    width: 600px;
+    text-align: left;
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin: 30px 0 50px;
+    position: relative;
+    bottom: 30px;
+}
+.but-and-lin{
+    width: 600px;
+}
+.but-and-lin button{
+    border-radius: 20px;
+}
+.but-and-lin a{
+    float: right;
+    color: #2a81ea;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+   right: 80px;
+}
+.box{
+    width: 200px;
+}
+.three-boxes{
+   width: 600px;
+   margin-top: 50px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.three-boxes p{
+    letter-spacing: 0.05em;
+    color: #7d92bb;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.three-boxes h6{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3d4b69;
+
+}
+.last-updated{
+    font-style: italic;
+    font-size: 12px;
+    color: #7d92bb;
+    margin-top: 30px
+
+}
+/*end headar*/
+
+/*start about*/
+.about{
+    height: 550px;
+    width: 1000px;
+}
+/*end about*/
+
+
+/*start transmission*/
+.transmission{
+    height: 800px;
+    background-color: rgba(168, 168, 167, 0.123);
+}
+/*end transmission*/
+
+
+
+
+
+
+
+footer {
+    background-color: #151c2e;
+    background-image: url(../images/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer .footer-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(247, 248, 255, 0.1);
+}
+
+footer .footer-texts .footer-text:first-of-type {
+    flex-basis: 80%;
+}
+
+footer .footer-texts .footer-text {
+    flex-basis: 80%;
+    margin: 0 auto 50px;
+}
+
+footer .footer-texts .footer-text h2 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .footer-texts .footer-text h2 span {
+    color: #4B6691;
+}
+
+footer .footer-texts .footer-text h2 svg {
+    color: #FF5363;
+}
+
+footer .footer-texts .footer-text p {
+    color: #b2bfe0;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text .footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon {
+    background-color: #50658e;
+    border-radius: 50%;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon:hover {
+    background-color: #2a81ea;
+}
+
+footer .footer-texts .footer-text .footer-icons .footer-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-texts .footer-text h5 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer .footer-texts .footer-text ul li a {
+    color: #b2bfe0;
+    text-decoration: none;
+}
+
+footer .footer-texts .footer-text ul li a:hover {
+    color: #2a81ea;
+}
+
+footer .footer-copyrights {
+    padding-top: 50px;
+}
+
+footer .footer-copyrights .copyrights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #b2bfe0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+footer .footer-copyrights .copyrights p {
+    flex-basis: 80%;
+    margin-bottom: 20px;
+}
+
+footer .footer-copyrights .copyrights span {
+    color: #fff;
+    font-weight: bold;
+}
+
+footer .footer-copyrights .copyrights a {
+    color: #b2bfe0;
+    text-decoration: none;
+    flex-basis: 60%;
+}
+
+footer .footer-copyrights .copyrights a:hover {
+    color: #2a81ea;
+}
+
+footer .footer-copyrights p {
+    color: #b2bfe0;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+/* Start Style The Website Footer Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    footer .footer-texts .footer-text:first-of-type {
+        flex-basis: 90%;
+    }
+
+    footer .footer-texts .footer-text {
+        flex-basis: 20%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    footer .footer-texts .footer-text h2 {
+        text-align: left;
+    }
+
+    footer .footer-texts .footer-text .footer-icons {
+        margin: 0;
+    }
+
+    footer .footer-copyrights .copyrights {
+        flex-wrap: nowrap;
+    }
+
+    footer .footer-copyrights .copyrights p {
+        flex-basis: 80%;
+        margin-bottom: 0;
+    }
+
+    footer .footer-copyrights .copyrights a {
+        flex-basis: 20%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    footer .footer-texts {
+        flex-wrap: nowrap;
+    }
+
+    footer .footer-texts .footer-text:first-of-type {
+        flex-basis: 30%;
+    }
+
+    footer .footer-texts .footer-text {
+        flex-basis: 20%;
+    }
+}
+
+/* Finish Style The Website Footer Media Queries */
+
+

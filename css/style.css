@@ -3,6 +3,16 @@
     clear: both;
 }
 
+ /*start button to-top */
+ .go-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  .go-top a svg{
+    color: var(--button-go-to-top-color);
+  }
 /*strart navbar*/
 .navbar{
     height: 80px;
